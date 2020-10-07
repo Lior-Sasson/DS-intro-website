@@ -1,0 +1,14 @@
+Data is everywhere. 
+It's everything you can draw conclusions from- whether it's numbers, images, vidoes, audio, 
+text... Every photo you upload to Facebook, every voice messege you send on Whatsapp.
+It's no surprise that in the last decade, the global growth of data volume has gone off the charts. 
+Google processes more that 20 PB per day. Facebook has more than 60 TB of daily logs.
+The act of saving data in computers has become a comfortable habit. Whereas in the past, organizations 
+used to keep countless ring binders, today it's much more convenient to save the data in 
+organized computer folders- it's easier to access data and to keep it safely in the long term. Plenty 
+of data is being collected and warehoused: web data, e-commerce, financial transactions, social 
+networks and so on.
+
+This has caused exponential growth in computer data, ready for all to process and analyse 
+and so to draw insights of workflows and processes. This has made organizations become more 
+knowledgable, efficient, save money and create new and usefull work positions.

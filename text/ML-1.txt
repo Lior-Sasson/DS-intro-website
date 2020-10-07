@@ -1,0 +1,59 @@
+Imagine a new born baby. In the first years of his life, he will perform an enormouse amount of learning 
+and his brain would physically change the most.
+
+He needs to learn how to eat, how to burp, how to wave and clap and point, how to sit, he learns facial 
+expressions, what makes his mommy laugh and so on...
+
+Now imagine his mom walking down the street with the baby in the stroller. Whenever someone with a 
+dog passes by, the mother points to the dog and says: "Look! that's a dog."
+She does this in many occasions, in different sceneries and evantually the baby can spot a dog on 
+his own, he points and says "dog!". He than recieves positive feedback- the mother is excited and 
+says "Yes! a dog!".
+
+This is a called a supervised learning process. Just like the little baby, we can teach a MACHINE new 
+things in a similar manner. We can input a program with a lot of dog images and also images than 
+don't contain a dog.We will tag each image with "Dog" or "Not a dog" accordingly. If the machine will 
+recieve enough varied amount of dogs and not-dogs- it will be able to classify new images itself. 
+It's called "supervied learning" because the input is tagged (just like the mother points to the dog 
+and says "dog") and when the machine trains, it recieves feedback (like the mother's feedback).
+
+There are two kinds of problems in supervised learning: regression and classification. 
+
+Classification is a problem in which the answer is categorical- you know excactly what are the 
+possibilities and it's countable. It's just like classifying dog images: either the answer is 
+"Dog" or "Not a dog", there are two possibilities. This is called binary classification.
+
+Regression is a problem in which the number of possibilities in not certain, it is sequential.
+
+Examples for supervised learning: 
+Classification:
+1. predict possibilities for diseases.
+2. classify different fruits.
+3. classify tweets for possitive or negative.
+
+Regression:
+1. predict house pricing.
+2. predict insurance cost.
+3. predict stock prices.
+
+
+This time, imagine the little baby in his playpen, playing with his toys. He can, on his own, study 
+the toys and realize which toys have the same color. He doesn't need his mom to tell him that the blue 
+teddy bear and the blue duck have the same color- he can tell it on his own. 
+
+This is called unsupervised learning, where one studies features of objects and learns to attribute 
+them to different groups. Here as well, there are two kinds of unsupervised learning problems. Clustering 
+is a problem in which you need to ascribe each object to one group. Association is a problem in 
+which you need to ascribe each element to appropriate groups, meaning an object can belong to several 
+groups.
+
+Examples of unsupervised learning:
+Clustering:
+1. devide images of fruits to groups.
+2. devide different days to seasons.
+
+Association:
+1. maket basket analysis: find items that are bought together.
+2. ascribe instagram posts to tags: happy, sad, angry, food, trip, vactions...
+
+

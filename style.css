@@ -1,0 +1,418 @@
+/* ctrl + K + 0 to fold all */
+/* ctrl + K + J to Unfold all */
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+    text-decoration:none;
+    list-style-type: none;
+    font-family: 'Cormorant Garamond',
+    serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* NAV BAR */
+
+.navbar{
+    top: 2%;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.logo-link{
+    position: fixed;
+    left: 4rem;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 2.5rem;
+    color: blanchedalmond;
+    width: 15rem;
+    margin:0 1.5rem;
+    border: 0.1rem solid blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    letter-spacing: 0.2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 5rem;
+    background-color: rgb(100, 149, 237,0.6);
+    left: -20%;
+    transform: rotate(-40deg) translateX(-4rem);
+    transform-origin: left bottom;
+    transition: 0.3s;
+}
+
+.nav-link:hover::before{
+    left: 110%
+}
+
+/* PAGE ARROW BUTTONS */
+
+.page-btn{
+    position: fixed;
+    z-index: 100;
+    top:50%;
+    transform:translateY(-50%);
+    background-color: transparent;
+    border:none;
+}
+
+.page-btn img{
+    width: 6rem;
+    opacity: .6;
+    cursor: pointer;
+    transition:0.2s;
+}
+
+.left-btn{
+    left:3rem;
+}
+
+.left-btn img{
+    transform: rotate(-180deg);
+}
+
+.right-btn{
+    right:3rem;
+}
+
+.page-btn img:hover{
+    opacity: 1;
+}
+
+/* PROGRESS BAR */
+
+.progress-wrapper{
+    z-index: 100;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem; 
+}
+
+.progress h2{
+    font-size: 2.2rem;
+    font-weight: 300;
+    color:white;
+}
+
+.progress{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.circle-wrapper{
+    display: flex;
+}
+
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+    margin: 0 .5rem;
+}
+
+
+/*  */
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/* SECTIONS */
+
+section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    transition: left .8s;
+}
+
+.section-wrapper{
+    width: inherit;
+    height: inherit;
+}
+
+/* SECTION 1 - HOME */
+
+.section-1-wrapper {
+    background: linear-gradient(
+        rgba(0,0,0,.5), rgba(0,0,0,.4)),
+        url(images/section-1/home.png)
+        center repeat-y;
+        background-size: cover;
+}
+
+.section-1-heading-wrapper{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.section-1-heading{
+    font-size: 6rem;
+    font-weight: 1000;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    border-bottom: .2rem solid rgba(62, 164, 172, 0.863);
+    text-align: left;
+    user-select: none;
+}
+
+/* SECTION 2 - DEFINITION */
+
+.section-2-wrapper {
+    background: linear-gradient(
+        rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url(images/section-2/data_definition.jpg)
+        center repeat-y;
+        background-size: cover;
+        background-repeat: repeat;
+        overflow-y: scroll;
+}
+
+.section-2-heading-wrapper{
+    position: relative;
+    top: 18rem;
+    left: 10rem;
+    width: fit-content;
+    border-bottom: .2rem solid rgba(62, 164, 172, 0.863);
+}
+
+.section-2-heading{
+    font-size: 6rem;
+    font-weight: 1000;
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+    line-height: 70pt;
+}
+
+
+
+/* SECTION 3 - DATA */
+
+.section-3-wrapper {
+    background: linear-gradient(
+        rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url(images/section-3/data.jpeg)
+        center repeat-y;
+        background-size: cover;
+        background-repeat: repeat;
+        overflow-y: scroll;
+}
+
+.section-3-heading-wrapper{
+    position: relative;
+    top: 18rem;
+    left: 10rem;
+    width: fit-content;
+    border-bottom: .2rem solid rgba(62, 164, 172, 0.863);
+}
+
+.section-3-heading{
+    font-size: 6rem;
+    font-weight: 1000;
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    user-select: none;
+    top: 0.2rem;
+    left: 0.2rem;   
+}
+
+
+/* SECTION 4 - MACHINE LEARNING */
+
+.section-4-wrapper {
+    background: linear-gradient(
+        rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url(images/section-4/section_4_background.jpg)
+        center repeat-y;
+        background-size: cover;
+        background-repeat: repeat;
+        overflow-y: scroll;
+}
+
+.section-4-heading-wrapper{
+    position: relative;
+    top: 18rem;
+    left: 10rem;
+    width: fit-content;
+    border-bottom: .2rem solid rgba(62, 164, 172, 0.863);
+}
+
+.section-4-heading{
+    font-size: 6rem;
+    font-weight: 1000;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    user-select: none;
+    top: 0.2rem;
+    left: 0.2rem;   
+}
+
+/* SECTION 5 - Data Roles */
+
+.section-5-wrapper {
+    background: linear-gradient(
+        rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url(images/section-5/section_5_background.jpg)
+        center repeat-y;
+        background-size: cover;
+        background-repeat: repeat;
+        overflow-y: scroll;
+}
+
+.section-5-heading-wrapper{
+    position: relative;
+    top: 18rem;
+    left: 10rem;
+    width: fit-content;
+    border-bottom: .2rem solid rgba(62, 164, 172, 0.863);
+}
+
+.section-5-heading{
+    font-size: 6rem;
+    font-weight: 1000;
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    user-select: none;
+    top: 0.2rem;
+    left: 0.2rem;   
+}
+
+.DS-role-wrapper{
+    position: relative;
+    top: 20%;
+    left: 2%;
+}
+
+.DS-role{
+    position: absolute;
+    width: 67rem;
+    border: solid black;
+    /* padding: -0.1rem; */
+}
+
+.DA-role-wrapper{
+    position: relative;
+    top: 55%;
+    left: 25%;
+}
+
+.DA-role{
+    position: absolute;
+    width: 67rem;
+    border: solid black;
+    padding: 00.3rem;
+}
+
+.DE-role-wrapper{
+    position: relative;
+    top: 93%;
+    left: 48%;
+}
+
+.DE-role{
+    position: absolute;
+    width: 67rem;
+    border: solid black;
+    padding: 00.3rem;
+}
+
+
+.section-1 {
+    z-index: 50;
+}
+
+.section-2 {
+    z-index: 40;
+}
+
+.section-3 {
+    z-index: 30;
+}
+
+.section-4 {
+    z-index: 20;
+}
+
+.section-5 {
+    z-index: 10;
+}
+
+.data-text{
+    position: absolute;
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.1rem;
+    /* font-style: normal; */
+    text-shadow: .5px .5px black;
+}
+
+.data1-wrapper{
+    position: relative;
+    top: 22rem;
+    left: 16rem;
+}
+
+.data1-image{
+    position: relative;
+    top: 100rem;
+    left: 50rem;
+}
+
+.data2-wrapper{
+    position: relative;
+    top: 110rem;
+    left: 16rem;
+}
+
+.data2-image{
+    position: relative;
+    top: 168rem;
+    left: 55rem; 
+}
+
+.data3-wrapper{
+    position: relative;
+    top: 180rem;
+    left: 16rem;
+}

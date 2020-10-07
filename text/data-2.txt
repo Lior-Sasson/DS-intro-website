@@ -1,0 +1,9 @@
+This is also one of the main factors that made Data Science possible... but data wasn't not enough. 
+Data Science wasn't very popular up until the last decade or so. The basic data science equation- 
+gradient descent, which is the foundation for many advanced data science algorithms, was created back in 1847.
+So what changed? Of course, the availabilty of data, but processing large amounts of data required 
+strong computing power.
+
+Moore's law indicates that the number of transistors in a dense integrated circuit (IC) doubles about 
+every two years. That means that the processing power increases exponentially, and so it also becomes 
+cheaper and more accessible.
