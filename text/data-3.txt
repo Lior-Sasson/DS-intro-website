@@ -1,8 +1,5 @@
-If 30 years ago, you would need days to train a simple machine learning model, today every one 
-with a google account can do so in minutes FOR FREE in google colab. Google colab is free platform 
-where you can develope models with google's servers. You can use their GPU to speed up processes.
+If 30 years ago, you would need days to train a simple machine learning model, today every one with a google account can do so in minutes FOR FREE in google colab. Google colab is free platform where you can develope models with google's servers. You can use their GPU to speed up processes.
 
-In the next section, we will discuss what is machine learning and how it draws its inspiration 
-from living beings.
+In the next section, we will discuss what is machine learning and how it draws its inspiration from living beings.
 
 
