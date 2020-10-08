@@ -2,7 +2,7 @@
   "name": "ds-intro-website",
   "version": "1.0.0",
   "description": "A simple website with introduction to data science",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
