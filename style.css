@@ -208,8 +208,9 @@ section {
     position: relative;
     top: 18rem;
     left: 10rem;
-    width: fit-content;
-    border-bottom: .2rem solid rgba(62, 164, 172, 0.863);
+    margin-right: 70rem;
+    /* width: fit-content; */
+    /* border-bottom: .2rem solid rgba(62, 164, 172, 0.863); */
 }
 
 .section-2-heading{
@@ -378,13 +379,13 @@ section {
 }
 
 .data-text{
-    position: absolute;
+    position: relative;
     font-size: 4.2rem;
     font-weight: 600;
     color: white;
     letter-spacing: 0.1rem;
     /* font-style: normal; */
-    text-shadow: .5px .5px black;
+    /* text-shadow: .5px .5px black; */
 }
 
 .data1-wrapper{
@@ -395,24 +396,24 @@ section {
 
 .data1-image{
     position: relative;
-    top: 100rem;
+    top: 35rem;
     left: 50rem;
 }
 
 .data2-wrapper{
     position: relative;
-    top: 110rem;
+    top: 45rem;
     left: 16rem;
 }
 
 .data2-image{
     position: relative;
-    top: 168rem;
+    top: 55rem;
     left: 55rem; 
 }
 
 .data3-wrapper{
     position: relative;
-    top: 180rem;
+    top: 65rem;
     left: 16rem;
 }
